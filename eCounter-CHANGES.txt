@@ -1,0 +1,34 @@
+25 FEB 2018		eCounter 1.2.3
+
+12 JAN 2018		eCounter 1.1.0
+_____________________________________________________________________________________________________________
+Changes
+
+eCounter 1.2.3 
+	add of  fuqinë e dukshme /puissance apparente/ apparent power
+		Active Power + ABS(Reactive power)
+	case 8 in eCounter_classes
+	loop end set from 8 to 9  in eCounter.php
+
+eCounter 1.2.2
+
+	SigFoxCallBack  : 
+		eCounter  creates dynamically the file context when a new device payload is received.
+		It allows to record all new incoming payload.
+		Notice that the config.xml has to be updated manually later.  Admin application is under dev  
+	Languages :
+		eCounter is able to display in many languages (3).
+		language can be mofified using right-top form.
+	New pictures: 
+		Hashtag for power factor
+
+	
+
+New files: 
+	LANGUAGES folder	: contains language value files  for 3 languages : Englih (default), Albanian, French.
+
+	TEMPLATES folder	: contains tempalte file dor creating a new device
+							- config.xml  : notice  
+											Owner to be changed, GPS coordinates are 0,0 , to be changed.
+											All fetaures (7) are icluded , 2 live Graphs declared.
+							- g.svg 	SVG template for the Live Graphs . g1.svg (active energy)   and  g3.svg (relay) are created by default 	 

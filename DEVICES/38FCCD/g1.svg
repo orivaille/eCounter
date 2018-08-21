@@ -1,0 +1,277 @@
+  <svg  id='svg2s' width='630' height='245' viewBox='-9 -11 638 214' style='stroke:blue; stroke-width:0;'  lns='http://www.w3.org/2000/svg'>
+		<!--   horizontal lines  -->
+	<g>
+   <line x1='25' y1='195' x2='605' y2='195'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='170.62' x2='605' y2='170.62'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='146.25' x2='605' y2='146.25'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='121.88' x2='605' y2='121.88'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='97.5' x2='605' y2='97.5'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='73.13' x2='605' y2='73.13'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='48.75' x2='605' y2='48.75'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+	</g>
+		<!--       Y labels     -->
+	<g>
+		<!--   Y marks  -->
+	 <text x='-5.6' y='195' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >496.69</text>
+	 <text x='-5.6' y='170.62' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >496.87</text>
+	 <text x='-5.6' y='146.25' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >497.05</text>
+	 <text x='-5.6' y='121.88' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >497.22</text>
+	 <text x='-5.6' y='97.5' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >497.4</text>
+	 <text x='-5.6' y='73.13' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >497.57</text>
+	 <text x='-5.6' y='48.75' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >497.75</text>
+	</g>
+		<!--   vertical lines  -->
+	<g>
+   <line x1='25' y1='0' x2='25' y2='195'  style='fill:none;stroke:#ccc;stroke-width:0.2px;' />
+	</g>
+	<polyline points='25,170.625 37.34,167.85511363637 49.68,166.47017045455 62.02,163.70028409091 74.36,162.31534090909 86.7,160.93039772727 99.04,158.16051136364 111.38,155.390625 123.72,151.23579545455 136.06,148.46590909091 148.4,145.69602272727 160.74,142.92613636364 173.09,141.54119318182 185.43,140.15625 197.77,137.38636363636 210.11,136.00142045454 222.45,131.84659090909 234.79,129.07670454545 247.13,124.921875 259.47,123.53693181818 271.81,120.76704545454 284.15,119.38210227272 296.49,117.99715909091 308.83,115.22727272727 321.17,112.45738636363 333.51,108.30255681818 345.85,104.14772727272 358.19,102.76278409091 370.53,99.992897727271 382.87,98.607954545454 395.21,97.223011363637 407.55,94.453124999996 419.89,91.683238636362 432.23,88.913352272728 444.57,84.758522727269 456.91,81.988636363635 469.26,79.218750000001 481.6,76.448863636359 493.94,75.063920454542 506.28,73.678977272725 518.62,70.909090909091 530.96,69.524147727267 543.3,65.369318181816 555.64,62.599431818182 567.98,58.444602272723 580.32,48.749999999996 592.66,48.749999999996 605,48.749999999996 '  style='fill:none ;stroke:rgba(48,63,159, 1.0);stroke-width:2.2px;'  /> 
+	<g id='point1' fill='none'>
+    	<ellipse id='gp1E' cx='25' cy='170.625' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp1T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.87 kWh </text>
+		<text id='gp1Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-02:39:27</text>
+	</g>
+	<g id='point2' fill='none'>
+    	<ellipse id='gp2E' cx='37.34' cy='167.85511363637' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp2T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.89 kWh </text>
+		<text id='gp2Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-02:49:27</text>
+	</g>
+	<g id='point3' fill='none'>
+    	<ellipse id='gp3E' cx='49.68' cy='166.47017045455' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp3T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.90 kWh </text>
+		<text id='gp3Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-02:59:28</text>
+	</g>
+	<g id='point4' fill='none'>
+    	<ellipse id='gp4E' cx='62.02' cy='163.70028409091' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp4T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.92 kWh </text>
+		<text id='gp4Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:09:28</text>
+	</g>
+	<g id='point5' fill='none'>
+    	<ellipse id='gp5E' cx='74.36' cy='162.31534090909' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp5T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.93 kWh </text>
+		<text id='gp5Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:19:28</text>
+	</g>
+	<g id='point6' fill='none'>
+    	<ellipse id='gp6E' cx='86.7' cy='160.93039772727' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp6T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.94 kWh </text>
+		<text id='gp6Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:29:28</text>
+	</g>
+	<g id='point7' fill='none'>
+    	<ellipse id='gp7E' cx='99.04' cy='158.16051136364' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp7T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.96 kWh </text>
+		<text id='gp7Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:39:27</text>
+	</g>
+	<g id='point8' fill='none'>
+    	<ellipse id='gp8E' cx='111.38' cy='155.390625' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp8T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 496.98 kWh </text>
+		<text id='gp8Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:49:27</text>
+	</g>
+	<g id='point9' fill='none'>
+    	<ellipse id='gp9E' cx='123.72' cy='151.23579545455' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp9T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.01 kWh </text>
+		<text id='gp9Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:59:26</text>
+	</g>
+	<g id='point10' fill='none'>
+    	<ellipse id='gp10E' cx='136.06' cy='148.46590909091' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp10T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.03 kWh </text>
+		<text id='gp10Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:09:26</text>
+	</g>
+	<g id='point11' fill='none'>
+    	<ellipse id='gp11E' cx='148.4' cy='145.69602272727' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp11T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.05 kWh </text>
+		<text id='gp11Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:19:26</text>
+	</g>
+	<g id='point12' fill='none'>
+    	<ellipse id='gp12E' cx='160.74' cy='142.92613636364' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp12T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.07 kWh </text>
+		<text id='gp12Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:29:25</text>
+	</g>
+	<g id='point13' fill='none'>
+    	<ellipse id='gp13E' cx='173.09' cy='141.54119318182' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp13T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.08 kWh </text>
+		<text id='gp13Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:39:25</text>
+	</g>
+	<g id='point14' fill='none'>
+    	<ellipse id='gp14E' cx='185.43' cy='140.15625' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp14T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.09 kWh </text>
+		<text id='gp14Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:49:25</text>
+	</g>
+	<g id='point15' fill='none'>
+    	<ellipse id='gp15E' cx='197.77' cy='137.38636363636' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp15T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.11 kWh </text>
+		<text id='gp15Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:59:25</text>
+	</g>
+	<g id='point16' fill='none'>
+    	<ellipse id='gp16E' cx='210.11' cy='136.00142045454' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp16T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.12 kWh </text>
+		<text id='gp16Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:09:24</text>
+	</g>
+	<g id='point17' fill='none'>
+    	<ellipse id='gp17E' cx='222.45' cy='131.84659090909' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp17T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.15 kWh </text>
+		<text id='gp17Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:19:24</text>
+	</g>
+	<g id='point18' fill='none'>
+    	<ellipse id='gp18E' cx='234.79' cy='129.07670454545' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp18T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.17 kWh </text>
+		<text id='gp18Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:29:24</text>
+	</g>
+	<g id='point19' fill='none'>
+    	<ellipse id='gp19E' cx='247.13' cy='124.921875' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp19T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.20 kWh </text>
+		<text id='gp19Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:39:24</text>
+	</g>
+	<g id='point20' fill='none'>
+    	<ellipse id='gp20E' cx='259.47' cy='123.53693181818' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp20T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.21 kWh </text>
+		<text id='gp20Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:49:24</text>
+	</g>
+	<g id='point21' fill='none'>
+    	<ellipse id='gp21E' cx='271.81' cy='120.76704545454' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp21T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.23 kWh </text>
+		<text id='gp21Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:59:24</text>
+	</g>
+	<g id='point22' fill='none'>
+    	<ellipse id='gp22E' cx='284.15' cy='119.38210227272' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp22T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.24 kWh </text>
+		<text id='gp22Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:09:22</text>
+	</g>
+	<g id='point23' fill='none'>
+    	<ellipse id='gp23E' cx='296.49' cy='117.99715909091' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp23T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.25 kWh </text>
+		<text id='gp23Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:19:22</text>
+	</g>
+	<g id='point24' fill='none'>
+    	<ellipse id='gp24E' cx='308.83' cy='115.22727272727' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp24T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.27 kWh </text>
+		<text id='gp24Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:29:22</text>
+	</g>
+	<g id='point25' fill='none'>
+    	<ellipse id='gp25E' cx='321.17' cy='112.45738636363' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp25T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.29 kWh </text>
+		<text id='gp25Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:39:23</text>
+	</g>
+	<g id='point26' fill='none'>
+    	<ellipse id='gp26E' cx='333.51' cy='108.30255681818' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp26T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.32 kWh </text>
+		<text id='gp26Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:49:22</text>
+	</g>
+	<g id='point27' fill='none'>
+    	<ellipse id='gp27E' cx='345.85' cy='104.14772727272' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp27T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.35 kWh </text>
+		<text id='gp27Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:59:22</text>
+	</g>
+	<g id='point28' fill='none'>
+    	<ellipse id='gp28E' cx='358.19' cy='102.76278409091' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp28T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.36 kWh </text>
+		<text id='gp28Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:09:21</text>
+	</g>
+	<g id='point29' fill='none'>
+    	<ellipse id='gp29E' cx='370.53' cy='99.992897727271' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp29T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.38 kWh </text>
+		<text id='gp29Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:19:21</text>
+	</g>
+	<g id='point30' fill='none'>
+    	<ellipse id='gp30E' cx='382.87' cy='98.607954545454' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp30T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.39 kWh </text>
+		<text id='gp30Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:29:21</text>
+	</g>
+	<g id='point31' fill='none'>
+    	<ellipse id='gp31E' cx='395.21' cy='97.223011363637' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp31T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.40 kWh </text>
+		<text id='gp31Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:39:21</text>
+	</g>
+	<g id='point32' fill='none'>
+    	<ellipse id='gp32E' cx='407.55' cy='94.453124999996' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp32T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.42 kWh </text>
+		<text id='gp32Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:49:21</text>
+	</g>
+	<g id='point33' fill='none'>
+    	<ellipse id='gp33E' cx='419.89' cy='91.683238636362' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp33T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.44 kWh </text>
+		<text id='gp33Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:59:21</text>
+	</g>
+	<g id='point34' fill='none'>
+    	<ellipse id='gp34E' cx='432.23' cy='88.913352272728' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp34T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.46 kWh </text>
+		<text id='gp34Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:09:20</text>
+	</g>
+	<g id='point35' fill='none'>
+    	<ellipse id='gp35E' cx='444.57' cy='84.758522727269' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp35T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.49 kWh </text>
+		<text id='gp35Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:19:20</text>
+	</g>
+	<g id='point36' fill='none'>
+    	<ellipse id='gp36E' cx='456.91' cy='81.988636363635' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp36T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.51 kWh </text>
+		<text id='gp36Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:29:19</text>
+	</g>
+	<g id='point37' fill='none'>
+    	<ellipse id='gp37E' cx='469.26' cy='79.218750000001' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp37T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.53 kWh </text>
+		<text id='gp37Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:39:19</text>
+	</g>
+	<g id='point38' fill='none'>
+    	<ellipse id='gp38E' cx='481.6' cy='76.448863636359' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp38T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.55 kWh </text>
+		<text id='gp38Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:49:19</text>
+	</g>
+	<g id='point39' fill='none'>
+    	<ellipse id='gp39E' cx='493.94' cy='75.063920454542' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp39T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.56 kWh </text>
+		<text id='gp39Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:59:19</text>
+	</g>
+	<g id='point40' fill='none'>
+    	<ellipse id='gp40E' cx='506.28' cy='73.678977272725' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp40T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.57 kWh </text>
+		<text id='gp40Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:09:21</text>
+	</g>
+	<g id='point41' fill='none'>
+    	<ellipse id='gp41E' cx='518.62' cy='70.909090909091' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp41T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.59 kWh </text>
+		<text id='gp41Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:19:20</text>
+	</g>
+	<g id='point42' fill='none'>
+    	<ellipse id='gp42E' cx='530.96' cy='69.524147727267' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp42T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.60 kWh </text>
+		<text id='gp42Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:29:20</text>
+	</g>
+	<g id='point43' fill='none'>
+    	<ellipse id='gp43E' cx='543.3' cy='65.369318181816' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp43T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.63 kWh </text>
+		<text id='gp43Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:39:19</text>
+	</g>
+	<g id='point44' fill='none'>
+    	<ellipse id='gp44E' cx='555.64' cy='62.599431818182' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp44T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.65 kWh </text>
+		<text id='gp44Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:49:19</text>
+	</g>
+	<g id='point45' fill='none'>
+    	<ellipse id='gp45E' cx='567.98' cy='58.444602272723' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp45T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.68 kWh </text>
+		<text id='gp45Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:59:20</text>
+	</g>
+	<g id='point46' fill='none'>
+    	<ellipse id='gp46E' cx='580.32' cy='48.749999999996' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp46T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.75 kWh </text>
+		<text id='gp46Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-10:01:00</text>
+	</g>
+	<g id='point47' fill='none'>
+    	<ellipse id='gp47E' cx='592.66' cy='48.749999999996' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp47T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.75 kWh </text>
+		<text id='gp47Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-11:11:10</text>
+	</g>
+	<g id='point48' fill='none'>
+    	<ellipse id='gp48E' cx='605' cy='48.749999999996' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp48T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 497.75 kWh </text>
+		<text id='gp48Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-11:11:10</text>
+	</g>
+	<text x='110' y='210' style='fill:orange;font-size:8px;font-weight:normal;text-anchor: start' >measure interval :  00:09:48</text>
+	<text x='310' y='210' style='fill:black;font-size:8px;font-weight:normal;text-anchor: start' >last measure : 12Jun18-11:11:10</text>
+	<text x='0' y='210' style='fill:black;font-size:10px;font-weight:bold;text-anchor: start' >kWh </text>
+		<!--   axis lines  -->
+	<g>
+   <line x1='25' y1='195' x2='605' y2='195'  style='fill:none;stroke:blue;stroke-width:0.8765443px;' />
+   <line x1='25' y1='0' x2='25' y2='195'  style='fill:none;stroke:blue;stroke-width:0.8765443px;' />
+	</g>
+
+  </svg>

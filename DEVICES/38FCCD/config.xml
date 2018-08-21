@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+  <owner>alexandre@ismac-nc.net</owner>
+  <name>Alexandre Cugnot</name>
+  <restricted>n</restricted>
+  <deviceKey>D77D6E9A7C8EAE75</deviceKey>
+  <active>y</active>
+  <hardware>
+    <brand>METERSYSTEM 195</brand>
+    <type>Electricity Counter</type>
+    <components> 38FCCD </components>
+    <frequency>10</frequency>
+    <date>20/02/2018</date>
+  </hardware>
+  <localisation>
+    <gpsN>-22.2671562</gpsN>
+    <gpsE>166.4617499</gpsE>
+    <Town>Noumea</Town>
+    <Language>fr</Language>
+    <altitude>28</altitude>
+    <UTC>10</UTC>
+  </localisation>
+  <lastKwhMeasure>497.75</lastKwhMeasure>
+  <lastDateMeasure>1528794670</lastDateMeasure>
+  <transfoScript>no</transfoScript>
+  <features>
+    <dataItem>1</dataItem>
+    <dataItem>2</dataItem>
+    <dataItem>3</dataItem>
+    <dataItem>4</dataItem>
+    <dataItem>5</dataItem>
+    <dataItem>6</dataItem>
+    <dataItem>7</dataItem>
+    <dataItem>8</dataItem>
+  </features>
+  <graphs>
+    <liveGraph>1</liveGraph>
+    <liveGraph>2</liveGraph>
+    <liveGraph>4</liveGraph>
+  </graphs>
+</device>

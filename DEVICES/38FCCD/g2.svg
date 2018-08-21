@@ -1,0 +1,277 @@
+  <svg  id='svg2s' width='630' height='245' viewBox='-9 -11 638 214' style='stroke:blue; stroke-width:0;'  lns='http://www.w3.org/2000/svg'>
+		<!--   horizontal lines  -->
+	<g>
+   <line x1='25' y1='195' x2='605' y2='195'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='170.63' x2='605' y2='170.63'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='146.25' x2='605' y2='146.25'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='121.88' x2='605' y2='121.88'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='97.5' x2='605' y2='97.5'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='73.12' x2='605' y2='73.12'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+   <line x1='25' y1='48.75' x2='605' y2='48.75'  style='fill:none;stroke:#ccc; stroke-width:0.2px;' />
+	</g>
+		<!--       Y labels     -->
+	<g>
+		<!--   Y marks  -->
+	 <text x='-5.6' y='195' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.44</text>
+	 <text x='-5.6' y='170.63' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.5</text>
+	 <text x='-5.6' y='146.25' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.56</text>
+	 <text x='-5.6' y='121.88' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.62</text>
+	 <text x='-5.6' y='97.5' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.69</text>
+	 <text x='-5.6' y='73.12' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.75</text>
+	 <text x='-5.6' y='48.75' style='fill :black;font-size:7.50775168px;font-weight:normal;text-anchor: left' >0.81</text>
+	</g>
+		<!--   vertical lines  -->
+	<g>
+   <line x1='25' y1='0' x2='25' y2='195'  style='fill:none;stroke:#ccc;stroke-width:0.2px;' />
+	</g>
+	<polyline points='25,68.407258064516 37.34,135.24193548387 49.68,170.625 62.02,123.44758064516 74.36,131.31048387097 86.7,131.31048387097 99.04,123.44758064516 111.38,60.54435483871 123.72,52.681451612903 136.06,64.475806451613 148.4,127.37903225806 160.74,150.96774193548 173.09,127.37903225806 185.43,131.31048387097 197.77,127.37903225806 210.11,52.681451612903 222.45,52.681451612903 234.79,64.475806451613 247.13,127.37903225806 259.47,95.927419354839 271.81,119.51612903226 284.15,123.44758064516 296.49,127.37903225806 308.83,48.75 321.17,60.54435483871 333.51,56.612903225806 345.85,60.54435483871 358.19,131.31048387097 370.53,154.89919354839 382.87,119.51612903226 395.21,139.17338709677 407.55,143.10483870968 419.89,91.995967741936 432.23,68.407258064516 444.57,56.612903225806 456.91,56.612903225806 469.26,127.37903225806 481.6,158.83064516129 493.94,123.44758064516 506.28,131.31048387097 518.62,119.51612903226 530.96,64.475806451613 543.3,52.681451612903 555.64,48.75 567.98,52.681451612903 580.32,115.58467741935 592.66,115.58467741935 605,115.58467741935 '  style='fill:none ;stroke:rgba(48,63,159, 1.0);stroke-width:2.2px;'  /> 
+	<g id='point1' fill='none'>
+    	<ellipse id='gp1E' cx='25' cy='68.407258064516' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp1T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.76 A </text>
+		<text id='gp1Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-02:39:27</text>
+	</g>
+	<g id='point2' fill='none'>
+    	<ellipse id='gp2E' cx='37.34' cy='135.24193548387' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp2T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.59 A </text>
+		<text id='gp2Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-02:49:27</text>
+	</g>
+	<g id='point3' fill='none'>
+    	<ellipse id='gp3E' cx='49.68' cy='170.625' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp3T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.5 A </text>
+		<text id='gp3Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-02:59:28</text>
+	</g>
+	<g id='point4' fill='none'>
+    	<ellipse id='gp4E' cx='62.02' cy='123.44758064516' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp4T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.62 A </text>
+		<text id='gp4Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:09:28</text>
+	</g>
+	<g id='point5' fill='none'>
+    	<ellipse id='gp5E' cx='74.36' cy='131.31048387097' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp5T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.6 A </text>
+		<text id='gp5Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:19:28</text>
+	</g>
+	<g id='point6' fill='none'>
+    	<ellipse id='gp6E' cx='86.7' cy='131.31048387097' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp6T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.6 A </text>
+		<text id='gp6Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:29:28</text>
+	</g>
+	<g id='point7' fill='none'>
+    	<ellipse id='gp7E' cx='99.04' cy='123.44758064516' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp7T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.62 A </text>
+		<text id='gp7Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:39:27</text>
+	</g>
+	<g id='point8' fill='none'>
+    	<ellipse id='gp8E' cx='111.38' cy='60.54435483871' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp8T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.78 A </text>
+		<text id='gp8Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:49:27</text>
+	</g>
+	<g id='point9' fill='none'>
+    	<ellipse id='gp9E' cx='123.72' cy='52.681451612903' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp9T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.8 A </text>
+		<text id='gp9Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-03:59:26</text>
+	</g>
+	<g id='point10' fill='none'>
+    	<ellipse id='gp10E' cx='136.06' cy='64.475806451613' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp10T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.77 A </text>
+		<text id='gp10Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:09:26</text>
+	</g>
+	<g id='point11' fill='none'>
+    	<ellipse id='gp11E' cx='148.4' cy='127.37903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp11T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.61 A </text>
+		<text id='gp11Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:19:26</text>
+	</g>
+	<g id='point12' fill='none'>
+    	<ellipse id='gp12E' cx='160.74' cy='150.96774193548' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp12T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.55 A </text>
+		<text id='gp12Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:29:25</text>
+	</g>
+	<g id='point13' fill='none'>
+    	<ellipse id='gp13E' cx='173.09' cy='127.37903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp13T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.61 A </text>
+		<text id='gp13Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:39:25</text>
+	</g>
+	<g id='point14' fill='none'>
+    	<ellipse id='gp14E' cx='185.43' cy='131.31048387097' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp14T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.6 A </text>
+		<text id='gp14Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:49:25</text>
+	</g>
+	<g id='point15' fill='none'>
+    	<ellipse id='gp15E' cx='197.77' cy='127.37903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp15T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.61 A </text>
+		<text id='gp15Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-04:59:25</text>
+	</g>
+	<g id='point16' fill='none'>
+    	<ellipse id='gp16E' cx='210.11' cy='52.681451612903' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp16T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.8 A </text>
+		<text id='gp16Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:09:24</text>
+	</g>
+	<g id='point17' fill='none'>
+    	<ellipse id='gp17E' cx='222.45' cy='52.681451612903' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp17T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.8 A </text>
+		<text id='gp17Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:19:24</text>
+	</g>
+	<g id='point18' fill='none'>
+    	<ellipse id='gp18E' cx='234.79' cy='64.475806451613' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp18T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.77 A </text>
+		<text id='gp18Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:29:24</text>
+	</g>
+	<g id='point19' fill='none'>
+    	<ellipse id='gp19E' cx='247.13' cy='127.37903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp19T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.61 A </text>
+		<text id='gp19Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:39:24</text>
+	</g>
+	<g id='point20' fill='none'>
+    	<ellipse id='gp20E' cx='259.47' cy='95.927419354839' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp20T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.69 A </text>
+		<text id='gp20Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:49:24</text>
+	</g>
+	<g id='point21' fill='none'>
+    	<ellipse id='gp21E' cx='271.81' cy='119.51612903226' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp21T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.63 A </text>
+		<text id='gp21Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-05:59:24</text>
+	</g>
+	<g id='point22' fill='none'>
+    	<ellipse id='gp22E' cx='284.15' cy='123.44758064516' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp22T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.62 A </text>
+		<text id='gp22Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:09:22</text>
+	</g>
+	<g id='point23' fill='none'>
+    	<ellipse id='gp23E' cx='296.49' cy='127.37903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp23T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.61 A </text>
+		<text id='gp23Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:19:22</text>
+	</g>
+	<g id='point24' fill='none'>
+    	<ellipse id='gp24E' cx='308.83' cy='48.75' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp24T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.81 A </text>
+		<text id='gp24Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:29:22</text>
+	</g>
+	<g id='point25' fill='none'>
+    	<ellipse id='gp25E' cx='321.17' cy='60.54435483871' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp25T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.78 A </text>
+		<text id='gp25Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:39:23</text>
+	</g>
+	<g id='point26' fill='none'>
+    	<ellipse id='gp26E' cx='333.51' cy='56.612903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp26T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.79 A </text>
+		<text id='gp26Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:49:22</text>
+	</g>
+	<g id='point27' fill='none'>
+    	<ellipse id='gp27E' cx='345.85' cy='60.54435483871' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp27T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.78 A </text>
+		<text id='gp27Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-06:59:22</text>
+	</g>
+	<g id='point28' fill='none'>
+    	<ellipse id='gp28E' cx='358.19' cy='131.31048387097' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp28T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.6 A </text>
+		<text id='gp28Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:09:21</text>
+	</g>
+	<g id='point29' fill='none'>
+    	<ellipse id='gp29E' cx='370.53' cy='154.89919354839' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp29T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.54 A </text>
+		<text id='gp29Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:19:21</text>
+	</g>
+	<g id='point30' fill='none'>
+    	<ellipse id='gp30E' cx='382.87' cy='119.51612903226' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp30T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.63 A </text>
+		<text id='gp30Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:29:21</text>
+	</g>
+	<g id='point31' fill='none'>
+    	<ellipse id='gp31E' cx='395.21' cy='139.17338709677' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp31T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.58 A </text>
+		<text id='gp31Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:39:21</text>
+	</g>
+	<g id='point32' fill='none'>
+    	<ellipse id='gp32E' cx='407.55' cy='143.10483870968' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp32T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.57 A </text>
+		<text id='gp32Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:49:21</text>
+	</g>
+	<g id='point33' fill='none'>
+    	<ellipse id='gp33E' cx='419.89' cy='91.995967741936' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp33T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.7 A </text>
+		<text id='gp33Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-07:59:21</text>
+	</g>
+	<g id='point34' fill='none'>
+    	<ellipse id='gp34E' cx='432.23' cy='68.407258064516' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp34T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.76 A </text>
+		<text id='gp34Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:09:20</text>
+	</g>
+	<g id='point35' fill='none'>
+    	<ellipse id='gp35E' cx='444.57' cy='56.612903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp35T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.79 A </text>
+		<text id='gp35Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:19:20</text>
+	</g>
+	<g id='point36' fill='none'>
+    	<ellipse id='gp36E' cx='456.91' cy='56.612903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp36T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.79 A </text>
+		<text id='gp36Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:29:19</text>
+	</g>
+	<g id='point37' fill='none'>
+    	<ellipse id='gp37E' cx='469.26' cy='127.37903225806' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp37T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.61 A </text>
+		<text id='gp37Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:39:19</text>
+	</g>
+	<g id='point38' fill='none'>
+    	<ellipse id='gp38E' cx='481.6' cy='158.83064516129' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp38T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.53 A </text>
+		<text id='gp38Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:49:19</text>
+	</g>
+	<g id='point39' fill='none'>
+    	<ellipse id='gp39E' cx='493.94' cy='123.44758064516' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp39T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.62 A </text>
+		<text id='gp39Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-08:59:19</text>
+	</g>
+	<g id='point40' fill='none'>
+    	<ellipse id='gp40E' cx='506.28' cy='131.31048387097' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp40T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.6 A </text>
+		<text id='gp40Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:09:21</text>
+	</g>
+	<g id='point41' fill='none'>
+    	<ellipse id='gp41E' cx='518.62' cy='119.51612903226' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp41T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.63 A </text>
+		<text id='gp41Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:19:20</text>
+	</g>
+	<g id='point42' fill='none'>
+    	<ellipse id='gp42E' cx='530.96' cy='64.475806451613' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp42T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.77 A </text>
+		<text id='gp42Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:29:20</text>
+	</g>
+	<g id='point43' fill='none'>
+    	<ellipse id='gp43E' cx='543.3' cy='52.681451612903' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp43T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.8 A </text>
+		<text id='gp43Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:39:19</text>
+	</g>
+	<g id='point44' fill='none'>
+    	<ellipse id='gp44E' cx='555.64' cy='48.75' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp44T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.81 A </text>
+		<text id='gp44Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:49:19</text>
+	</g>
+	<g id='point45' fill='none'>
+    	<ellipse id='gp45E' cx='567.98' cy='52.681451612903' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp45T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.8 A </text>
+		<text id='gp45Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-09:59:20</text>
+	</g>
+	<g id='point46' fill='none'>
+    	<ellipse id='gp46E' cx='580.32' cy='115.58467741935' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp46T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.64 A </text>
+		<text id='gp46Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-10:01:00</text>
+	</g>
+	<g id='point47' fill='none'>
+    	<ellipse id='gp47E' cx='592.66' cy='115.58467741935' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp47T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.64 A </text>
+		<text id='gp47Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-11:11:10</text>
+	</g>
+	<g id='point48' fill='none'>
+    	<ellipse id='gp48E' cx='605' cy='115.58467741935' rx='3.240741px' ry='3.240741px' stroke='white'  fill='rgba(48,63,159, 1.0)' stroke-width='2'  class='graphPointE'/>
+		<text id='gp48T' x='290' y='26' class='graphPointT'   style='fill:red; font-size:0.97em;' > 0.64 A </text>
+		<text id='gp48Ts' x='290' y='37'   class='graphPointTs' style='fill:black; font-size:0.87em;' >12Jun18-11:11:10</text>
+	</g>
+	<text x='110' y='207' style='fill:orange;font-size:8px;font-weight:normal;text-anchor: start' >measure interval :  00:09:48</text>
+	<text x='310' y='207' style='fill:black;font-size:8px;font-weight:normal;text-anchor: start' >last measure : 12Jun18-11:11:10</text>
+	<text x='0' y='207' style='fill:black;font-size:10px;font-weight:bold;text-anchor: start' >A </text>
+		<!--   axis lines  -->
+	<g>
+   <line x1='25' y1='195' x2='605' y2='195'  style='fill:none;stroke:blue;stroke-width:0.8765443px;' />
+   <line x1='25' y1='0' x2='25' y2='195'  style='fill:none;stroke:blue;stroke-width:0.8765443px;' />
+	</g>
+
+  </svg>

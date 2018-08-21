@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+  <owner>user2@sanJose.ca</owner>
+  <name>Akahi  LATASTE</name>
+  <restricted>n</restricted>
+  <deviceKey>aaaaaaaaaaaaaaaaaaaaaaaaaaa</deviceKey>
+  <active>y</active>
+  <hardware>
+    <brand>XXXXXXX</brand>
+    <type>Electricity Counter</type>
+    <components> XXXX </components>
+    <frequency>31</frequency>
+    <date>10/10/2017</date>
+  </hardware>
+  <localisation>
+    <gpsN>37.31651</gpsN>
+    <gpsE>238.1781</gpsE>
+    <Town>San Jose CA USA</Town>
+    <Language>En</Language>
+    <altitude>30</altitude>
+    <UTC>11</UTC>
+  </localisation>
+  <lastKwhMeasure>4.96</lastKwhMeasure>
+  <lastDateMeasure>1509800334</lastDateMeasure>
+  <transfoScript>no</transfoScript>
+  <features>
+    <dataItem>1</dataItem>
+    <dataItem>2</dataItem>
+    <dataItem>3</dataItem>
+    <dataItem>4</dataItem>
+    <dataItem>5</dataItem>
+    <dataItem>6</dataItem>
+    <dataItem>7</dataItem>
+  </features>
+  <graphs>
+    <liveGraph>1</liveGraph>
+    <liveGraph>3</liveGraph>
+  </graphs>
+</device>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin meet">
+  <circle r="10" cx="15" cy="15" style="fill:transparent ;stroke-width:3;stroke:rgb(0,240,0)" />
+  <line x1="15" y1="10" x2="15" y2="20"  style="stroke:rgb(0,240,0);stroke-width:3"/>
+</svg>
+

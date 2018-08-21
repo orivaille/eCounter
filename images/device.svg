@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<svg width="20px" height="20px" viewBox="0 0 50 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin meet">
+	<title>radiosvg</title>
+  <g > 
+	<path d="M 5,30 a 15 7 0 0,1 70,0" style="stroke:#888; stroke-linejoin:bevel; stroke-width:6.8px; fill:none;"/> 
+	<path d="M 15,40 a 15 7 0 0,1 50,0"  style="stroke:#777; stroke-linejoin:bevel; stroke-width:6.8px; fill:none;"/> 
+	<path d="M 25,50 a 15 7 0 0,1 30,0"  style="stroke:#555; stroke-linejoin:bevel; stroke-width:6.8px; fill:none;"/> 
+    <circle cx="40" cy="70" r="15"  stroke="none"  fill= "black" />
+  </g>
+  <g >
+  </g>
+</svg>

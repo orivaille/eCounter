@@ -1,0 +1,161 @@
+/* eCounter  CSS				*/
+/* V1r4.0					*/
+/*eCounter  backend			*/
+/*olivier rivaille			*/
+/*10NOV17 - 12JUN18 		*/
+/*orivaille@free.fr			*/
+/*  */
+@viewport{width:device-width; zoom:1;}
+* { margin:0;padding:0; font-family: sans-serif; }
+/*--   --*/
+html { font-size: 0.8em; }
+body { background-color : #fff;	height: auto; text-align: center; }
+a {color:rgba(35,0,104, 1.0);text-decoration: none;}
+a:hover {color:rgba(250,50,10, 1.0); } 
+img {vertical-align:middle;} 	/* allows div vertical aligment ... */
+header {height: 5.29em; width:100%; margin: 0;  text-align:center;  background-color:rgba(35,0,104, 1); } 
+#hFeature3  {width: 5.00%;float: left; margin:0;}
+#h_title { width: 51%; height: auto; margin:0 0 0 10.1%;  float: left;}
+#h_title h2 {width:46%;  font-size: 200%; margin: 0.30em 0 0 8.5%; color:rgba(255,255,255, 0.988); text-shadow:2px 2px 2px rgba(128,36,255, 0.333);}
+#logoHeader {width: 12%; height: auto; margin:0;text-align:center;  border: 0px solid red; float: left;}
+#Date {width: 17%; font-size: 0.85em;  margin:1% 1% 0 0 ; float: left;color:rgba(255,255,255, 0.999);   border: 0px solid red;}
+#wrapper {width:100%;  background:#fff; text-align: center; margin :0; } 
+#h_forward {opacity: 0.1; width: 5.80%; height: auto; margin: 0 0 0 -0.20em; float:right; transition: 0.5s; transition-timing-function: ease-in-out; -webkit-transition: 0.5s; -webkit-transition-timing-function: ease-in-out; }
+#h_backward {opacity: 0.1; width: 5.80%; height: auto; margin: 0.20em; float:left; transition: 0.5s; transition-timing-function: ease-in-out; -webkit-transition: 0.5s; -webkit-transition-timing-function: ease-in-out;}
+#h_backward:hover , #h_forward:hover { opacity: 1; }
+#eCounterDevices {width:100%; height:3.0%; background-color:rgba(0, 151, 157,0.988); color:white; font-size: 90%;}
+#eCounterDevices h2 b { color:white; }
+#eCounterDevices ul {padding: 0.5em;}
+#eCounterDevices,  #eCounterDevice   {font-size: 120%; text-align:center;background-color:rgba(35,0,104, 0.9)}
+
+#current {width: 100%; height: auto; padding: 0.1em 0; float: left;  padding: 0.2em; border: 0em solid rgba(35,0,104, 1.0);font-size: 0.8012em; text-align: center; background-color:rgba(35,0,104, 0.6);} 
+div[id^="feature"] {
+	width: 32.00%; height: 4.850em;float:left; border: 0.1235em solid rgba(35,0,104, 0.9); border-radius:5px;background-color:rgba(250,250,250, 1.0);
+	vertical-align: middle; margin: 0 0 0 0.1567em;}
+#timeSelect, #Lgraph {
+	width: 32.00%; height: 4.850em;float:left; border: 0.1235em solid rgba(35,0,104, 0.9); border-radius:5px;background-color:rgba(250,250,250, 1.0);
+	vertical-align: middle; margin: 0 0 0 0.1567em;}
+p.itemButton {width:100%;height: auto; margin: 0.04em auto 0  auto;color:rgba(35,0,104, 1); }
+p>input.ltButton {width:4.00em;border: none; background-color:transparent;font-size: 1.0em; font-weight:bold;margin: 0.10em auto auto 0em;}
+p>input.ltButton:hover {color: red;}
+#filler {visibility: hidden;}
+#timeSelect { color:rgba(0,150,128, 1);text-align:left;}
+
+.imgCurrent {height: 36.5%; width: auto; margin: 0.02em auto; vertical-align: middle; opacity:1; }
+.imgCurrentL { height: 1.2300em; width: auto; margin: 0.02em auto;}
+#eCounterLogo {  top : 0.7em; left: 0.8em; height :4em; width: auto; margin : 0.5em 0 0 0;}
+.imgTitle {height: 1.02em; width: auto; margin: 0.22em auto; vertical-align: middle;}
+
+.msgInfo { color:rgba(35,0,104, 1); font-size: 2.4000em; margin: 20% auto auto auto;}
+#affich {width:  100%; height:auto; margin: 0 ; float:left; }
+#liveTitle {width:  100%; height:auto; margin: 0 ; background-color:rgba(63,90,196, 1);}
+.eCounterInfo {font-size: 2.0000em;margin: 0.8em 0 0 0 ; color: black;}
+/*------------------------------------------------------*/
+#svgTitle { margin:2% 0 0.5% 0; font-weight:bold; font-size:180.5%; color:rgba(35,0,104, 1); vertical-align: middle; }
+#svg1container {width: auto; height:87%; margin: 0 0.5em 0 4.18%;  text-align: center;}
+#svg2  {width: 100% ; height:auto; margin :0  0 1.5% 0; border: 1px solid #ccc; border-radius: 0.500em;box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);}  
+#svg2s  {width: 80% ; height:auto; margin :0.5%; border: 1px solid #ccc; border-radius: 0.350em;box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);}  
+.graphPointE {stroke-width: 0px;transition: 0.8s; transition-timing-function: ease-in-out; -webkit-transition: 0.8s; -webkit-transition-timing-function: ease-in-out;}
+.graphPointE:hover {stroke-width: 2px;}
+.graphPointT {font-size:1.2em;font-style:italic; text-anchor: middle; opacity:0;transition: 0.8s; transition-timing-function: ease-in-out; -webkit-transition: 0.8s; -webkit-transition-timing-function: ease-in-out;}
+.graphPointTs {font-style:normal; text-anchor: middle; opacity:0;transition: 0.8s; transition-timing-function: ease-in-out; -webkit-transition: 0.8s; -webkit-transition-timing-function: ease-in-out;}
+.graphPointTsCurrent {font-style:normal; text-anchor: middle; opacity:1;}
+/* .graphPointR {fill:#888;stroke:#888;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;opacity:0;transition: 0.8s; transition-timing-function: ease-in-out; -webkit-transition: 0.8s; -webkit-transition-timing-function: ease-in-out;} */
+svg  #ellipse  { transition: 1.0s; transition-timing-function: ease-in-out; -webkit-transition: 1.0s; -webkit-transition-timing-function: ease-in-out;}
+ellipse[id^="gp"]:hover ~  text[id^="gp"]{opacity:1;} 
+/*--- new  bar charts ---- */
+.graphPointR {stroke-width: 1px;transition: 0.8s; transition-timing-function: ease-in-out; -webkit-transition: 0.8s; -webkit-transition-timing-function: ease-in-out;}
+.graphPointR:hover {stroke-width: 1px;}
+svg  rect  {  transition: 1.0s; transition-timing-function: ease-in-out; -webkit-transition: 1.0s; -webkit-transition-timing-function: ease-in-out;}
+rect[id^="gp"]:hover ~   text[id^="gp"]{opacity:1;font-size:2.2em;}
+rect[id^="gp"]:hover 	{stroke:rgb(250,50,50);stroke-width:2.5px}
+/*------------------------------------------------------*/
+img.logo { height: 1.800em; width: auto; margin :1em 4% 1em 3%;}
+
+#sigfox img {height:auto; width:68%;  margin:0.8em;   text-align:center;}
+#DHMjs {font-size: 1.70000em; text-align: left; margin: 2.000em;}
+.poweredLink {margin: 0 auto ; height: auto;} 
+.techinfo {width:90%; margin:1em auto; text-align: left; padding: 0.2em; background-color: rgba(240,240,240, 0.7);border-radius: 0.2345em;  border: 0.12em solid rgba(0,150,128, 1.0);}
+select.T {width:3.61em;  height:auto;background-color:rgba(128,36,255, 0.3);}
+select.T:hover {color:rgba(35,0,104, 1.0); }
+select.Z {width:10.63em;  height:auto;background-color:rgba(128,36,255, 0.8); color:#fff;}
+select.Lg {width:60%; height:auto;background-color:rgba(35,0,104, 0.8); border:none; color:#fff;}
+select.D {width:3em; height:auto;margin :0.7em 0em 0em 0.4em;background-color:rgba(35,0,104, 0.8); border:none; color:#fff;}
+.res {width: 100.00%; height: 4.400em;float:left;   color: #fff; }
+#csvLink {width: auto; height:auto;  margin:1em 2em 1em 2em; float: left;  }
+#csvLink a {background-color:rgba(35,0,104, 1); border-radius:2px; color:#fff;padding:0.36em;margin:0 2em 0 0; }
+#csvLink a:hover {color:green;background-color:rgba(35,0,104, .3);}
+#footer {width: 100%; height:3.123em;  margin:0; float: left; color:#fff; background-color:rgba(100, 100, 150, 1.00); text-align:center; padding: 0.5em 0 0 0;}
+#footer img.logo { height: 1.06em; width: auto; margin :0.7em 0.4em 0.1em 0.4em;}
+#footer span {width: 0em; visibility: hidden; margin : 0; }
+/* -----  ADMIN -----------------------------------------------------------------------*/
+#loginF {width : 50%; margin: 8em 20em 16em auto; text-align: left; font-size: 1.34em;}
+#loginForm fieldset { margin: 0 0 0.8em 0; border: none; text-align:right;}
+#loginForm fieldset:last-child  { margin: 0 0 20em 0; border: none; text-align:right;}
+#loginForm input {box-shadow:  0 0 0.2em  0.1em #99c; }
+#loginForm input[type="text"] { width: 15em; padding:0.5em 0.5em; font-size:1.24em; }
+#loginForm input[type="password"] { width: 15em; padding:0.5em 0.50em; font-size:1.24em; }
+.auth_input { border: none; margin: 0.5em auto 1em 1em; border-radius: 3px;	}
+#userSubmit , #deviceUpdte, #deviceAdd  {font-size: 1.34em; margin: 0px; padding: 5px 15px;}
+#loginForm input:invalid {  border: 1px solid red;}
+.fb_msg {color :red;}
+/*-------------------------------------------------------------------------------------*/
+
+.cRed{ background:#f11111; border-radius:50%;width:10px; height:10px;border:1px solid #333;}
+.cGreen{ background:rgb(0, 151, 157); border-radius:50%;width:10px; height:10px;border:1px solid #333;}
+
+/* ----------------- MEDIA  QUERIES -------------------------------------------------- */
+
+@media only screen and (min-width: 20em) { 
+}
+
+@media only screen and (min-width: 32em) {
+ .imgCurrent {height: 40.5%; }
+ .img31j {height: 39.0%; margin: 0.2em 0em auto 0.3em;  }
+#footer img.logo { height: 1.06em; width: auto; margin :0.3em 0.4em 0.1em 0.4em;}
+#Date {font-size: 0.95em;}
+}
+@media only screen and (min-width: 61em) {
+ #header {height: 5.87em;}
+ #logoHeader {width: 12.00%;}
+ #hFeature3 {width: 5.00%; margin: 0 0 0 0.1%;}
+ #h_title { width: 55.00%; height: auto;  }
+ #h_title h2 {width:56%;  font-size: 280%; margin: 0.30em 0 0 8.5%; color:rgba(255,255,255, 0.988); text-shadow:2px 2px 2px rgba(128,36,255, 0.333);}
+ /* #h_title h2 {width: 56%; font-size: 3.321656em;margin: 0 0 0 10.5%;}  */
+ #Date {width: 15%; font-size: 1.06em;margin:0.6% 0.2% 0 1.0% ;}
+ select.Lg {width:50%;}
+ select.D {width:4em;margin :0.7em 0em 0em 1.4em;}
+ p.itemButton {margin: 0.321em auto 0  0.22em; font-size: 0.801em;}
+ #eCounterDevices,  #eCounterDevice   {font-size: 120%; text-align:center;background-color:rgba(35,0,104, 0.9);}
+ #current {width: 14.14%; height: auto; max-height:120%;  float:left; margin: 0; font-size: 1.19em; }
+ div[id^="feature"], #timeSelect, #Lgraph {width: 95.2%; height: 4.850em;font-size:1.01em; overflow:hidden;}
+ .imgCurrent { height: 37.5%; width: auto; margin: 0.02em auto;}
+ .imgCurrentL { height: 1.220em; width: auto; margin: 0.02em auto;}
+ #svg2  {margin :0  0 0.6% 0;}  
+ #filler {width: 100%; height: 2.3em;float:left; border: 0;visibility:visible;}
+ #eCounterLogo { height :4.3456em; margin : 0.50em 0.1em 0.1em 4.5%;}
+ .img31j {height: 36.2%; }
+ .imgTitle {height: 1.15em;} 
+ #affich {width: 84%; height:auto; margin: 0 0 0 0; display: inline-block;}
+ #svg1container {width: 86%; height:85%; margin: 0 0 0 5%;  text-align: center;}
+ #svg2  {width: 100%; height:auto;margin:1.4% 0 0 0;}
+ #svg2s  {width: 70%; height:auto;}
+ #csvLink {margin:1em 5em 1em 10em;}
+ #svgTitle { font-size:190.5%;} 
+.graphPointT {font-size:1.0em;}
+ .res {display: block; height: 4.90em; }
+ #footer { margin: 0; float: left; }
+ #footer img.logo { height: 2.000em; width: auto; margin :0.2em 1.4em 0.2em 0.4em;}
+ #footer span {width: 4em;visibility: visible; margin:0.2em 0em 0.2em 2.4em; }
+}
+
+@media (min-width:61em) and (orientation: landscape) {
+#svg2  {width: 100%; height:auto;}
+#svg2s  {width: 70%; height:auto;}
+}
+
+@media only screen and (max-width: 60em) {
+}
+
+@media (max-device-width:60em) and (orientation: landscape) {
+}

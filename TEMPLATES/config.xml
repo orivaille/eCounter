@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+  <owner>user0@noumea.nc</owner>
+  <name>Someone</name>
+  <restricted>n</restricted>
+  <deviceKey>aaaaaaaaaaaaaaaaaaaaaaaaaaa</deviceKey>
+  <active>n</active>
+  <hardware>
+    <brand>XXXXXXX</brand>
+    <type>Electricity Counter</type>
+    <components> XXXX </components>
+    <frequency>31</frequency>
+    <date>dd/mm/yyyy</date>
+  </hardware>
+  <localisation>
+    <gpsN>-0.0</gpsN>
+    <gpsE>0.0</gpsE>
+    <Town>unknown</Town>
+    <Language>lg</Language>
+    <altitude>00</altitude>
+    <UTC>00</UTC>
+  </localisation>
+  <lastKwhMeasure>0.0</lastKwhMeasure>
+  <lastDateMeasure>1234567890</lastDateMeasure>
+  <transfoScript>no</transfoScript>
+  <features>
+    <dataItem>1</dataItem>
+    <dataItem>2</dataItem>
+    <dataItem>3</dataItem>
+    <dataItem>4</dataItem>
+    <dataItem>5</dataItem>
+    <dataItem>6</dataItem>
+    <dataItem>7</dataItem>
+    <dataItem>8</dataItem>
+  </features>
+  <graphs>
+    <liveGraph>1</liveGraph>
+    <liveGraph>3</liveGraph>
+  </graphs>
+</device>
