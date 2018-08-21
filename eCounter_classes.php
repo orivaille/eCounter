@@ -276,8 +276,6 @@ function PageBody($device,&$C_cBoxes,$Lg,$homePage,$eCounterImages_A,$eCounterIm
 
     if($this->getFeatures2($areaToProcess,$AD_deviceFeatures))
 	{
-    //echo"<br/> - 198 - ".$areaToProcess.","; print_r($AD_deviceFeatures);
-    //echo"<br/> - 199 - ".$areaToProcess.","; print_r($A_lastMeasures);
 		 $currentHour = date('H');
 		 $j= $A_lastMeasures[0] - $A_lastMeasures[count($A_lastMeasures)-1]; 
   		 $j=intval($j/86400);       //---- compute nb of days depending on measure interval value
@@ -293,7 +291,6 @@ function PageBody($device,&$C_cBoxes,$Lg,$homePage,$eCounterImages_A,$eCounterIm
 		 $s .="' method='post'>\n";
 		 $s .="	  <p class='itemButton'> \n";
 
-   		 //$s .="<input class='ltButton' type='input' value=' ".$this->textTranslate(1,$this->textElements)." ".$j." ".$this->textTranslate(2,$this->textElements)."' /> \n";
    		 $s .="<input class='ltButton' type='submit' value=' ".$j." ".$this->textTranslate(2,$this->textElements)."' /> \n";
 		 // $s .="       <input type='image' src='images/Glth.svg' class='img31j'/> \n";
 		 $s .="      <select  name='T'  id='T' class='T'>\n";
@@ -307,7 +304,6 @@ function PageBody($device,&$C_cBoxes,$Lg,$homePage,$eCounterImages_A,$eCounterIm
 		 $s .="     <form action='".$homePage.".php?";    //  -----  attention   autre script
 		 if(isset($_REQUEST['S'])) {$s .= "S=".$_REQUEST['S'];}
 		 if(isset($_REQUEST['F'])) {$s .= "&F=".$_REQUEST['F'];}
-		 //$s .= "&T";
 		 $s .= "&M=M";
 		 $s .="&dev=".$device;
 		 $s .="&L=".$Lg;
@@ -315,8 +311,6 @@ function PageBody($device,&$C_cBoxes,$Lg,$homePage,$eCounterImages_A,$eCounterIm
 		 $s .="	  <p class='itemButton'> \n";
 
    		 $s .="<input class='ltButton' type='submit' value=' ".$j." ".$this->textTranslate(2,$this->textElements)."' /> \n";   		 
-		 //$s .="<input class='ltButton' type='submit' value=' ".$this->textTranslate(1,$this->textElements)." ".$j." ".$this->textTranslate(2,$this->textElements)."' /> \n";
-		 //$s .="       <input type='image' src='images/Gm.svg' class='img31j'/> \n";
 		 $s .="	  </p> \n" ;	
 		 $s .="     </form>\n"; 
 		 $s .="   </div>\n";
@@ -358,7 +352,6 @@ function PageBody($device,&$C_cBoxes,$Lg,$homePage,$eCounterImages_A,$eCounterIm
 function pageFoot($codeVersion, $codeRelease,$c,$affich)
  {
     $s ="";
-	//$s .=" <div style='width:100%; height:".intval($c*2)."em;'>  </div>\n";
     if($affich) {$s  .=" </div>\n";}		  // end of avec div id='affich'  . to be managed by caller
     $s.=" <footer id='footer'> \n";
     //
@@ -367,12 +360,6 @@ function pageFoot($codeVersion, $codeRelease,$c,$affich)
 	$s .="  <span > powered by  </span>\n";
 	$s .=" 	<a href='http://www.sigfox.com' class='poweredLink' target='_blank'>  <img class='logo' src='http://www.sigfox.com/themes/sigfox/logo.svg' alt='Sigfox'  title='Sigfox'/></a>\n";
 	$s .=" 	<a href='https://www.ismac-nc.net/wp/' class='poweredLink' target='_blank'>  <img class='logo' src='images/cropped-cropped-ismac-logo-e1497789160799-2s.png' alt='iSMAC'  title='iSMAC'/></a>\n";
-/*
-	$s .=" 	<a href='http://www.php.net' target='_blank'> <img src='http://php.net/images/logos/php-logo.svg' class='logo' /> </a>\n";
-	$s .="  <span>  featuring  </span>\n";
-	$s .=" 	<a href='https://www.raspberrypi.org/' target='_blank'> <img src='images/raspberry-pi.svg' class='logo' /> </a>\n";
-	$s .=" 	<a href='https://www.arduino.cc/' target='_blank'> <img src='images/Arduino_Logo.svg' class='logo' /></a>\n";
-*/
     $s .= " <span style=' margin: 0 2em 0 8em;'>".$this->webSiteName." ".$codeVersion.".".$codeRelease." </span>\n";
     $s .=" </footer> \n";
     $s .="</div>    <!-- end of id='wrapper' --> \n";
@@ -435,16 +422,13 @@ function byteExtract($dataTrimmed, $areaToProcess, $A_inputFields, $statusByteFi
 
 	$TYPErec=intval(substr($dataTrimmed,0,1));					// left byte ( i.e.  1 caracter) from data field <==
 	$returnValue=FALSE;
-//echo"<br/> -405- TYPErec=".$TYPErec."\n";
 	$hexValue=0X0000;
  	if($TYPErec==2) 											// is TYPE == 2 ?
 	{
-//echo"<br/> -409- TYPErec=".$TYPErec."\n";
 //------------------------------------------------------------------------
 //--              process bytes                                         --
 //------------------------------------------------------------------------
 	/*      */
- 	//echo"**<br/>areaToProcess:". $areaToProcess . "\n ";
  		switch ($areaToProcess) {
 		case '0':						// Uplink type (=2) 
 			$returnValue= (int)substr($dataTrimmed,0,1);
@@ -537,7 +521,6 @@ function byteExtract($dataTrimmed, $areaToProcess, $A_inputFields, $statusByteFi
 		}   // -- end of switch
     	$areaProcessStatus=TRUE;
  	}  // -- end of statusbit !=0
-  //echo "<br/> -388-  areaToProcess=".$areaToProcess. " / hexValue=".$hexValue.   " / returnValue=".$returnValue. "\n";
   return $returnValue;    // TBD
   }
   else
@@ -570,7 +553,6 @@ function infoTextMin($chartType,$infoTextSize,$chartSvgSizeX,$linearGraphMargin,
 	    $xmlConfig=$C_devicesFolder.$device."/".'config.xml';
 	    $Mname =	getConfigdata2($xmlConfig, "name",$Mname);
 	    $intHello=$device."<br />".$this->textTranslate(13,$this->textElements)."<br/>".$Mname;
-		//($areaToProcess==0)? $t=$intHello : $t=" Pas de données disponibles pour ". $Glabel;
 		($areaToProcess==0)? $t=$intHello : $t=" ".$this->textTranslate(14,$this->textElements)." ". $Glabel;
 
 		$s  ="";
@@ -580,7 +562,6 @@ function infoTextMin($chartType,$infoTextSize,$chartSvgSizeX,$linearGraphMargin,
 		echo $s; unset($s, $t);
 	 }
 	function openSvgGraph($C_svgFileName)  {
-	 //echo "<br/>928 classes open svg graphic ".$C_svgFileName. "\n";
 	  $svgf =fopen($C_svgFileName, "w");
 	  if(!$svgf) {echo "<br/> ERROR - cannot open $C_svgFileName file \n";} 
 	  return $svgf;

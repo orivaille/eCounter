@@ -363,7 +363,6 @@ if($chartType== 'linearW2') { $svgFile=$webPage->openSvgGraph($C_svgFileName); }
 $countEqual=1;
 $intSpacing=FALSE;
 $measureInterval=0;
-//echo"<hr/> >>>>>>>>>>>>>".count($A_Xdata) ."  / chartType=".$chartType."\n";;
 for($i=0; $i<count($A_Xdata); $i++) { 
 	if( $i == 0) { 
         $lastMeasure= rtrim(ltrim($A_Xdata[$i], "\'"), "\'"); 
@@ -373,7 +372,6 @@ for($i=0; $i<count($A_Xdata); $i++) {
 	   $A_Xdata[$i]= rtrim(ltrim($A_Xdata[$i], "\'"), "\'");
 	   if($webPage->is_timestamp($A_Xdata[$i])) 
 		{
-  //echo"<br/> -- 362 -- A_Xdata[$i]=".$A_Xdata[$i]."\n";
 	 	 if($i > 0) {
 			$t=$A_Xdata[$i]-$lastMeasure; $lastMeasure= $A_Xdata[$i];
 			if($chartType=='linear' || $chartType=='linearLT'|| $chartType=='linearW2') {
@@ -384,7 +382,6 @@ for($i=0; $i<count($A_Xdata); $i++) {
 					if(($t > abs($C_barSumInterval*60)*1.2) ||  $t ==0) {$measureError=TRUE;} 
 			 		else {$measureInterval +=$t; $mcnt++;}
 		  	}
-  //echo"<br/> -- 374 -- ".$chartType."  t=".$t." / ".date('H:i:s', $t)." /measureInterval=".$measureInterval." / mcnt=".$mcnt." \n";
 		  }  
 		 $A_Xdata_label[$i]=date("dMy-H:i:s", $A_Xdata[$i]);
 		 $A_Xdata[$i] = $i;
@@ -400,15 +397,12 @@ for($i=0; $i<count($A_Xdata); $i++) {
 }  // end of for($i=0; $i<count($A_Xdata); $i++)
 
  $XYcount=count($A_Xdata);
- //echo"<br/> -- 400 -- measureInterval=".$measureInterval." / mcnt=".$mcnt." / C_barSumInterval=".$C_barSumInterval."\n";											// count of X different figures
  if($mcnt!=0) {
 	if($chartType=='bar') {$measureInterval=abs($measureInterval/$cnt);}
 	else {$measureInterval=abs($measureInterval/ $mcnt);}
  }
-// ($measureInterval > 3500) ? $S_measureInterval = date("H:i:s",$measureInterval): $S_measureInterval = date("i:s",$measureInterval); 
- //echo"<br/> -- 399 -- measureInterval=".$measureInterval." / mcnt=".$mcnt."\n";
+
  $S_measureInterval = gmdate(" H:i:s",$measureInterval);
- //echo"<br/> -- 401 -- S_measureInterval=".$S_measureInterval."\n";
  $heure = intval(abs($measureInterval / 3600));
  $measureInterval= $measureInterval - ($heure * 3600);
  $minute = intval(abs($measureInterval/ 60));
@@ -416,7 +410,7 @@ for($i=0; $i<count($A_Xdata); $i++) {
  $seconde = abs($measureInterval);
 //
  $Ycorr=0; 														//=======  adjust min & max ======
- $YYmax=$Ymax;				// backup Ymax value before adding y graph margin												// save data value
+ $YYmax=$Ymax;				// backup Ymax value before adding y graph margin						// save data value
  $YYmin=$Ymin;				// backup Ymin value before adding y graph margin
  if($YYmax == $YYmin) {$Ycorr=$YYmax/4; if($YYmax==0) {$Ycorr=1;}}   //  <<<<<=======
  if($Xmax == $Xmin) {$Xmin=$Xmax/2;} 
@@ -432,7 +426,6 @@ for($i=0; $i<count($A_Xdata); $i++) {
  $A_Ymark[0]=$Ymin;
  for ($i=1; $i < $C_markUnit +2; $i++) {
 	$A_Ymark[$i]=$A_Ymark[$i-1]+$incrY;
-	//echo"<br/> -- 424 -- Ymin=".$Ymin." / A_Ymark[$i]=".$A_Ymark[$i];
  }
 // compute Yratio Xratio and Yzero ------------------------- 
  $YtailorRatio=1;
@@ -449,9 +442,7 @@ for($i=0; $i<count($A_Xdata); $i++) {
 //----- linear & bar process ------- compute SVG tailored coordinates -------------------
 $barNumber= count($A_Xdata)-0;
 if($barNumber>=2) { $bn=$barNumber;}
-//echo"<br/>  437 C_linearSvgSizeX=".$C_linearSvgSizeX." / C_linearGraphMargin=".$C_linearGraphMargin."\n";
 $barWidth= round((($C_linearSvgSizeX-$C_linearGraphMargin)/$barNumber - ($C_barStrokeWidth *2)),1);
-//echo"<br/>  439 barNumber=".$barNumber." / barWidth=".$barWidth."\n";
 if($chartType== 'linear' || $chartType== 'linearLT' || $chartType== 'linearW2'  || $chartType== 'bar') 
  {
  for($i=0; $i<count($A_Xdata); $i++) {
